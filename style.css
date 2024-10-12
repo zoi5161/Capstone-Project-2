@@ -1,0 +1,160 @@
+h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 150px;
+    font-weight: bold;
+    padding: 10px;
+    font-family: "Ruge Boogie", cursive;
+
+}
+
+h2 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 20px;
+    font-family: "Ruge Boogie", cursive;
+}
+
+h3{
+    font-size: 50px;
+}
+
+h4{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 990px) {
+    h1 {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+        font-size: 120px;
+        font-weight: bold;
+    }
+    
+    h2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+        font-size: 50px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+        font-size: 80px;
+        font-weight: bold;
+    }
+    
+    h2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+        font-size: 40px;
+        font-weight: bold;
+    }
+}
+
+@media screen and ((max-width: 1430px) and (min-width: 1241px)) {
+    #python{
+        height: 300px;
+    }
+
+    #c{
+        height: 300px;
+    }
+
+    #swift{
+        height: 300px;
+    }
+
+    #html{
+        height: 300px;
+    }
+
+    #sql{
+        height: 300px;
+    }
+
+    #css{
+        height: 300px;
+    }
+}
+
+@media screen and ((max-width: 1240px) and (min-width: 991px)) {
+    #python{
+        height: 360px;
+    }
+
+    #c{
+        height: 360px;
+    }
+
+    #swift{
+        height: 360px;
+    }
+
+    #html{
+        height: 360px;
+    }
+
+    #sql{
+        height: 360px;
+    }
+
+    #css{
+        height: 360px;
+    }
+}
+
+@media screen and ((max-width: 990px) and (min-width: 0px)) {
+    #Me{
+        margin-top: 40px;
+    }
+
+    #tagPython{
+        height: 285px;
+    }
+
+    #tagC{
+        height: 285px;
+    }
+
+    #tagSwift{
+        height: 285px;
+    }
+
+    #tagHtml{
+        height: 285px;
+    }
+
+    #tagSql{
+        height: 285px;
+    }
+
+    #tagCss{
+        height: 285px;
+    }
+}
