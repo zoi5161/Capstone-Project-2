@@ -1,10 +1,23 @@
+.image-container {
+    width: 100%; /* Chiếm toàn bộ chiều rộng của màn hình */
+    height: 300px; /* Bạn có thể tùy chỉnh chiều cao */
+    overflow: hidden; /* Ẩn phần ảnh bị tràn ra ngoài */
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cắt ảnh để giữ đúng tỷ lệ và lấp đầy vùng chứa */
+}
+
+
 h1 {
     position: absolute;
-    top: 40%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
-    font-size: 150px;
+    font-size: 100px;
     font-weight: bold;
     padding: 10px;
     font-family: "Ruge Boogie", cursive;
@@ -13,11 +26,11 @@ h1 {
 
 h2 {
     position: absolute;
-    top: 55%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bold;
     padding: 10px;
     margin-top: 20px;
@@ -36,110 +49,137 @@ h4{
 @media screen and (max-width: 990px) {
     h1 {
         position: absolute;
-        top: 40%;
+        top: 10%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: black;
-        font-size: 120px;
+        font-size: 100px;
         font-weight: bold;
-    }
+        padding: 10px;
+        font-family: "Ruge Boogie", cursive;
     
+    }
     h2 {
         position: absolute;
-        top: 50%;
+        top: 20%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: black;
         font-size: 50px;
         font-weight: bold;
+        padding: 10px;
+        margin-top: 20px;
+        font-family: "Ruge Boogie", cursive;
     }
 }
 
 @media screen and (max-width: 800px) {
     h1 {
         position: absolute;
-        top: 40%;
+        top: 10%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: black;
-        font-size: 80px;
+        font-size: 100px;
         font-weight: bold;
+        padding: 10px;
+        font-family: "Ruge Boogie", cursive;
+    
     }
     
     h2 {
         position: absolute;
-        top: 50%;
+        top: 20%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: black;
-        font-size: 40px;
+        font-size: 50px;
         font-weight: bold;
+        padding: 10px;
+        margin-top: 20px;
+        font-family: "Ruge Boogie", cursive;
     }
 }
 
 @media screen and (max-width: 680px) {
     h1 {
         position: absolute;
-        top: 40%;
+        top: 10%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: black;
         font-size: 70px;
         font-weight: bold;
+        padding: 10px;
+        font-family: "Ruge Boogie", cursive;
+    
     }
     
     h2 {
         position: absolute;
-        top: 50%;
+        top: 15%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: black;
-        font-size: 30px;
+        font-size: 40px;
         font-weight: bold;
+        padding: 10px;
+        margin-top: 20px;
+        font-family: "Ruge Boogie", cursive;
     }
 }
 
 @media screen and (max-width: 520px) {
     h1 {
         position: absolute;
-        top: 40%;
+        top: 10%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: black;
-        font-size: 30px;
+        font-size: 50px;
         font-weight: bold;
-    }
+        padding: 10px;
+        font-family: "Ruge Boogie", cursive;
     
+    }
     h2 {
         position: absolute;
-        top: 45%;
+        top: 20%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: black;
-        font-size: 20px;
+        font-size: 25px;
         font-weight: bold;
+        padding: 10px;
+        margin-top: 20px;
+        font-family: "Ruge Boogie", cursive;
     }
 }
 
 @media screen and (max-width: 380px) {
     h1 {
         position: absolute;
-        top: 40%;
+        top: 10%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: black;
-        font-size: 45px;
+        font-size: 30px;
         font-weight: bold;
-    }
+        padding: 10px;
+        font-family: "Ruge Boogie", cursive;
     
+    }
     h2 {
         position: absolute;
-        top: 45%;
+        top: 20%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: black;
-        font-size: 23px;
+        font-size: 20px;
         font-weight: bold;
+        padding: 10px;
+        margin-top: 20px;
+        font-family: "Ruge Boogie", cursive;
     }
 }
 
