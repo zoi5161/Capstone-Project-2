@@ -128,17 +128,17 @@ h4{
         left: 50%;
         transform: translate(-50%, -50%);
         color: black;
-        font-size: 25px;
+        font-size: 45px;
         font-weight: bold;
     }
     
     h2 {
         position: absolute;
-        top: 43%;
+        top: 45%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: black;
-        font-size: 15px;
+        font-size: 23px;
         font-weight: bold;
     }
 }
